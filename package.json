@@ -1,12 +1,12 @@
 {
   "name": "formsy-react",
-  "version": "0.17.0",
+  "version": "0.17.1",
   "description": "A form input builder and validator for React JS",
   "repository": {
     "type": "git",
     "url": "https://github.com/christianalfoni/formsy-react.git"
   },
-  "main": "release/formsy-react.min.js",
+  "main": "lib/main.js",
   "scripts": {
     "start": "webpack-dev-server --content-base build",
     "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js",
