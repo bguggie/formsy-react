@@ -1,10 +1,10 @@
 {
-  "name": "formsy-react",
+  "name": "formsy-react-15",
   "version": "0.17.1",
-  "description": "A form input builder and validator for React JS",
+  "description": "A form input builder and validator for React JS (temp fork for react15 support)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/christianalfoni/formsy-react.git"
+    "url": "https://github.com/bguggie/formsy-react.git"
   },
   "main": "lib/main.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "examples": "webpack-dev-server --config examples/webpack.config.js --content-base examples",
     "prepublish": "babel ./src/ -d ./lib/"
   },
-  "author": "Christian Alfoni",
+  "author": "bguggie",
   "license": "MIT",
   "keywords": [
     "react",
